@@ -1,5 +1,5 @@
 {% set name = "pygcap" %}
-{% set version = "1.0.1" %}
+{% set version = "1.2.3" %}
 
 package:
   name: {{ name }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pygcap-{{ version }}.tar.gz
-  sha256: 29e8817d200539bb67e2ddcaef15f6cec9c726e42c078767e7840922e94fdb76
+  sha256: f9f96bff4cfa880746f9d549f58ac4c50758544c7f91fafffb680e654363d477
 
 build:
   number: 0
